@@ -1,0 +1,25 @@
+body {
+    background-color: cadetblue;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin: 150px;
+}
+
+.card {
+    background-color: lightblue;
+    width: 150px;
+    height: 150px;
+}
+
+/* write that h1 has white background and black text */
+h1 {
+    background-color: white;
+    color: black;
+}

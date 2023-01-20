@@ -1,5 +1,5 @@
 body {
-    background-color: cadetblue;
+    background-color: #404E4D;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -13,13 +13,21 @@ body {
 }
 
 .card {
-    background-color: lightblue;
-    width: 150px;
-    height: 150px;
+    background-color: #FDE74C;
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+    cursor: pointer;
+
 }
 
-/* write that h1 has white background and black text */
+.card:active {
+    background-color: #9BC53D;
+}
+
 h1 {
-    background-color: white;
+    background-color: #FDE74C;
     color: black;
+    display: inline-flexbox;
+    border-radius: 10px;
 }

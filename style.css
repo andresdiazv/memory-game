@@ -25,6 +25,10 @@ body {
     background-color: #9BC53D;
 }
 
+.highlight {
+    background-color: red;
+}
+
 h1 {
     background-color: #FDE74C;
     color: black;
